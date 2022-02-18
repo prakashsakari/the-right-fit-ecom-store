@@ -1,6 +1,10 @@
 @import url("https://uilight.netlify.app/main.css");
 @import url("/main.css");
 
+body {
+    overflow-x: hidden;
+}
+
 .wishlist-page-container {
     margin: 2rem 3.5rem;
 }
@@ -53,7 +57,7 @@
     margin: 1rem 0;
 }
 
-.total-price{
+.total-price {
     width: 400px;
     background-color: var(--card-background);
     padding-left: 2rem;
@@ -68,7 +72,6 @@
 .flex-start {
     align-self: flex-start;
 }
-
 
 .mg-left {
     margin-left: auto;
@@ -88,4 +91,3 @@
 .btn-width {
     width: 350px;
 }
-
