@@ -2,7 +2,10 @@
     background-color: var(--background-color);
     color: var(--primary-color);
     padding: 0.5rem 5rem;
-    border-bottom: 1px solid var(--primary-color-hover);
+    border-bottom: 1px solid var(--border-color);
+    width: 100vw;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .icon {
@@ -47,6 +50,22 @@
     right: -.5rem;
 }
 
+.wishlist-small {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.fav-outline {
+    background-color: var(--text-color-secondary);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.wishlist-color {
+    color: var(--red-badge);
+}
+
 .gap-8px {
     gap: .5rem;
 }
@@ -89,6 +108,10 @@
 
 .footwear-category {
     gap: 2.5rem;
+}
+
+.gap-48px {
+    gap: 3rem;
 }
 
 .overlay {
@@ -142,4 +165,57 @@
 
 .footer {
     padding-top: 5rem;
+}
+
+.sidebar-position {
+    margin-top: 5rem;
+    padding-bottom: 6rem;
+    position: fixed;
+    overflow: auto;
+    width: 20rem
+}
+
+.product-content {
+    margin-top: 5rem;
+    margin-left: 20rem;
+    padding: 2rem 5rem;
+}
+
+.border-right {
+    border-right: 1px solid var(--border-color);
+}
+
+.mg-left {
+    margin-left: auto;
+}
+
+.sub-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.link-primary {
+    font-size: 1.2rem;
+}
+
+.margin16-top-down {
+    margin: 1rem 0;
+}
+
+.margin8-top-down {
+    margin: 8px 0;
+}
+
+
+.slider {
+    width: 14rem;
+}
+
+.gap-large {
+    gap: 3.5rem;
+}
+
+.check-box {
+    width: 16px;
+    height: 16px;
 }
