@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prakash Sakari">
+    <meta name="description"
+        content="Explore The Right Fit's Latest Collection Of Footwear For Men, Women, Boys, Girls & Senior Citizen. Fashionnable, Trendy, Classic and Comfortable Footwear for all.">
+
+    <title>Cart | The Right Fit</title>
+    <link rel="stylesheet" href="cart.css">
+
+</head>
+
+<body>
+    <header class="heading d-flex grow1-shrink1-basisauto align-center">
+        <div class="heading-title-icon d-flex align-center">
+            <img class="icon mr-1 border-radius-50" src="/assets/The Right Fit-logos.jpeg" alt="logo">
+            <h1 class="heading-title">
+                <a class="link" href="/">The Right Fit</a>
+            </h1>
+        </div>
+        <div class="search-box-container relative">
+            <input class="search-box padding-all-8 border-radius-4" type="text" placeholder="Search">
+            <img src="/assets/outline_search_black_24dp.png" alt="Search" class="search-icon absolute left-0 top-0">
+        </div>
+        <nav class="navigation">
+            <ul class="list-non-bullet d-flex align-center gap">
+                <li class="list-item-inline">
+                    <a href="#" class="link">
+                        <button class="button btn-outline-primary ">Login</button>
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="#" class="link">
+                        <div class="icon-badge relative">
+                            <img class="icon-img" src="/assets/fav-outline-48px.png" alt="wishlist">
+                            <div class="badge-number avatar-badge d-flex align-center justify-center">2</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="#" class="link d-flex align-center gap-8px">
+                        <div class="icon-badge relative">
+                            <img class="icon-img" src="/assets/cart-outline-48px.png" alt="cart">
+                            <div class="badge-number avatar-badge d-flex align-center justify-center">1</div>
+                        </div>
+                        Cart
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="wishlist-page-container">
+        <h2 class="text-center">My Cart</h2>
+        <div class="d-flex gap-48px wrap justify-center">
+            <div class="card-horizontal d-flex shadow card-size flex-start">
+                <div class="card-hori-image-container relative">
+                    <img class="card-image d-block" src="/assets/shoes.jpg" alt="shoes">
+                    <small class="c-badge bg-primary absolute left-0">Trending</small>
+                </div>
+                <div class="card-details d-flex direction-column">
+                    <div class="card-title">Premium Collection</div>
+                    <div class="card-description">
+                        <p class="card-des">Men Sneakers</p>
+                        <p class="card-price">
+                            Rs. 1750
+                            <span class="price-strike-through">Rs. 2499</span>
+                            <span class="discount">(30% OFF)</span>
+                        </p>
+                    </div>
+                    <div class="quantity-container d-flex gap">
+                        <p class="q-title">Quantity: </p>
+                        <div class="count-container d-flex align-center gap">
+                            <button class="count">-</button>
+                            <input type="number" class="item-count border-radius-4" value="2">
+                            <button class="count">+</button>
+                        </div>
+
+                    </div>
+                    <div class="cta-btn-container d-flex gap">
+                        <div class="cta-btn">
+                            <button class="button btn-primary btn-icon d-flex align-center gap cursor btn-margin">Remove
+                                From Cart</button>
+                        </div>
+                        <div class="cta-btn">
+                            <button
+                                class="button btn-outline-primary btn-icon d-flex align-center gap cursor btn-margin">Move
+                                to Wishlist</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="total-price padding-all-16">
+                <h3 class="cart-title">Price Details</h3>
+                <div class="price-distribution d-flex direction-column gap">
+                    <div class="items-purchased d-flex align-center">
+                        <p>Price (2 items)</p>
+                        <p class="mg-left">Rs. 5000</p>
+                    </div>
+                    <div class="discount-rate d-flex align-center">
+                        <p>Dsicount</p>
+                        <p class="mg-left">- Rs. 1500</p>
+                    </div>
+                    <div class="delivery-charge d-flex align-center">
+                        <p>Delivery Charges</p>
+                        <p class="mg-left">Rs. 150</p>
+                    </div>
+                </div>
+                <div class="total-amount d-flex align-center">
+                    <p>TOTAL AMOUNT </p>
+                    <p class="mg-left">Rs. 3500</p>
+                </div>
+                <p class="discount-text">You will save Rs. 1500 on this order</p>
+                <button class="button btn-primary cursor btn-width">PLACE ORDER</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
