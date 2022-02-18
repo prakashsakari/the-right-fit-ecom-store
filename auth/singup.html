@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | The Right FIt</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+    <header class="heading d-flex grow1-shrink1-basisauto align-center fixed top-0 left-0">
+        <div class="heading-title-icon d-flex align-center">
+            <img class="icon mr-1 border-radius-50" src="/assets/The Right Fit-logos.jpeg" alt="lightbul">
+            <h1 class="heading-title">
+                <a class="link" href="/">The Right Fit</a>
+            </h1>
+        </div>
+        <div class="search-box-container relative">
+            <input class="search-box padding-all-8 border-radius-4" type="text" placeholder="Search">
+            <img src="/assets/outline_search_black_24dp.png" alt="" class="search-icon absolute left-0 top-0">
+        </div>
+        <nav class="navigation">
+            <ul class="list-non-bullet d-flex align-center gap">
+                <li class="list-item-inline">
+                    <a href="#" class="link">
+                        <button class="button btn-outline-primary ">Login</button>
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="#" class="link">
+                        <div class="icon-badge relative">
+                            <img class="icon-img" src="/assets/fav-outline-48px.png" alt="wishlist">
+                            <div class="badge-number avatar-badge d-flex align-center justify-center">2</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="#" class="link d-flex align-center gap-8px">
+                        <div class="icon-badge relative">
+                            <img class="icon-img" src="/assets/cart-outline-48px.png" alt="cart">
+                            <div class="badge-number avatar-badge d-flex align-center justify-center">1</div>
+                        </div>
+                        Cart
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="d-grid">
+        <div class="login-auth direction-column d-flex justify-center">
+            <h2 class="auth-title">Signup</h2>
+            <div class="form-container">
+                <label class="form-label">Email address</label>
+                <input type="email" class="form-input lh-ls" placeholder="name@example.com">
+            </div>
+
+            <div  class="form-container">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-input lh-ls" placeholder="*********">
+            </div>
+
+            <div class="remember">
+                <input type="checkbox" class="check-box">
+                <label class="padding-all-8 label-remember">I accept all Terms & Conditions</label>
+                
+            </div>
+            <div class="cta">
+                <button class="login-btn button btn-primary cursor btn-margin">Create New Account</button>
+                <div class="create-account d-flex align-center justify-center">
+                    <span class="new-account">Already have an Account</span> 
+                    <button class="button cursor">
+                        <span class="material-icons-outlined">
+                            arrow_forward_ios
+                            </span>
+                    </button>
+                    
+                </div>
+                
+            </div>
+            
+
+        </div>
+    </div>
+
+</body>
+
+</html>
