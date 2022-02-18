@@ -2,7 +2,7 @@
 @import url("/main.css");
 
 .d-grid {
-    margin-top: 5rem;
+    margin-top: 7rem;
     display: grid;
     place-content: center center;
 }
