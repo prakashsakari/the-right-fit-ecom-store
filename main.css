@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .heading {
     background-color: var(--background-color);
     color: var(--primary-color);
