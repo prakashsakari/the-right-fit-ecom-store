@@ -1,0 +1,51 @@
+@import url("https://uilight.netlify.app/main.css");
+@import url("/main.css");
+
+.d-grid {
+    margin-top: 7rem;
+    display: grid;
+    place-content: center center;
+}
+
+.login-auth {
+    width: 33rem;
+    background-color: var(--card-background);
+    padding: 2rem;
+}
+
+.auth-title {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.form-input {
+    width: 26rem;
+    margin: 4px 0;
+    font-size: 1rem;
+}
+
+.form-label {
+    padding: 0;
+    text-decoration: none;
+}
+
+.form-container {
+    margin: 1rem 0;
+}
+
+.label-remember {
+    font-size: 1.25rem;
+}
+
+.login-btn {
+    width: 26rem;
+}
+
+.create-account {
+    margin: 1rem 0;
+}
+
+.new-account {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
