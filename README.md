@@ -1,4 +1,4 @@
-![The Right Fit-logos](https://user-images.githubusercontent.com/80476561/154788984-263fdb6e-8304-4361-8280-625633bd320d.jpeg)
+![The Right Fit-logos - Copy-modified](https://user-images.githubusercontent.com/80476561/154789289-7e2c8fd3-9e3f-4312-bf3f-801216d3403a.png)
 
 # The Right Fit
 
