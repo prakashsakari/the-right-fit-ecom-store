@@ -1,6 +1,6 @@
+[The Right Fit-logos - Copy-modified](https://user-images.githubusercontent.com/80476561/154789289-7e2c8fd3-9e3f-4312-bf3f-801216d3403a.png)
 
-
-# The Right Fit ![The Right Fit-logos - Copy-modified](https://user-images.githubusercontent.com/80476561/154789289-7e2c8fd3-9e3f-4312-bf3f-801216d3403a.png)
+# The Right Fit !
 
 [The Right Fit](https://therightfit.netlify.app/) is one stop for all your footwear needs. A footwear ecommerce website where you can find latest and in-trend footwear for everyone.
 
